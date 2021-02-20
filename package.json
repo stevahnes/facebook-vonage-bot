@@ -1,0 +1,28 @@
+{
+  "name": "facebook-vonage-bot",
+  "version": "1.0.0",
+  "description": "Facebook Bot created using Vonage API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevahnes/facebook-vonage-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevahnes/facebook-vonage-bot/issues"
+  },
+  "homepage": "https://github.com/stevahnes/facebook-vonage-bot#readme",
+  "dependencies": {
+    "@vonage/server-sdk": "^2.10.5-beta-2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nedb": "^1.8.0"
+  }
+}
